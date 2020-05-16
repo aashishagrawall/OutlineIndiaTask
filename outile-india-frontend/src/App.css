@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+.container-padding {
+  padding: 20px;
+}
+.container-wrapper {
+  border: 1px solid black;
+}
+
+.text-align {
+  text-align: center;
+}
+.survey-title {
+  text-align: center;
+  color: white;
+}
+.employee-select {
+  margin-top: 25px;
+}
+.employee-survey {
+  margin-top: 80px;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+}
+.column-margin {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.column-wrapper {
+  background-color: #3298dc;
+  padding: 10px 0 10px 0;
+  color: white;
+  border: 1px solid #3298dc;
+  border-radius: 3px;
+}
+.list-style {
+  border-top: 1px solid white;
+  padding: 10px;
+  color: white;
+  margin-bottom: 0px !important;
+}
+.list-style:nth-child(n) {
+  border-bottom: none;
+}
+.survey-heading {
+  display: inline-block;
+  vertical-align: middle;
+}
+.survey-button {
+  width: 100%;
+}
+.li-wrapper {
+  max-height: 350px;
+}
+.elements-wrapper {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#scrollbar::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+#scrollbar::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
+#scrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+.done-button {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .column-margin {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .employee-survey {
+    margin-top: 20px;
+  }
+  .li-wrapper {
+    max-height: 170px;
+  }
+  .employee-select {
+    margin-top: 10px;
+  }
+}
